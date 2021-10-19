@@ -3,11 +3,12 @@ import "../Component/Bvaccine.css";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 class Bvaccine extends Component {
+    
     render() {
         return (
             <div className="body">
                 <div className="header">
-                    <div className="container">
+                    <div className="container ">
 
                         <h1 className="title">Vaccine Suggestion For New Born Baby</h1>
                         <p className="slogan">I​mmunisation is an important way to protect your child from certain life-threatening diseases.
@@ -26,10 +27,75 @@ class Bvaccine extends Component {
                                 <button id="submit" class="btn btn-success">Submit</button>
                             </form>
                          </div>
-                        
                     </div>
 
                 </div>
+                    <div id='vaccineTable' className="container">
+                    <h2 className="title"> Vaccines your child will get </h2>
+                         <table class="table table-bordered">
+                            <thead>
+                                <tr className='table-danger'>
+                                <th scope="col">#</th>
+                                <th scope="col">Vaccine Name</th>
+                                <th scope="col">1st Dose</th>
+                                <th scope="col">2st Dose</th>
+                                <th scope="col">3st Dose</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr className='table-light'>
+                                <th scope="row">1</th>
+                                <td>Pneumococcal conjugate Vaccine</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr className='table-secondary'>
+                                <th scope="row">2</th>
+                                <td>Meningococcal B Vaccine</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr className='table-light'>
+                                <th scope="row">3</th>
+                                <td >Rotavirus oral Vaccine</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr className='table-secondary'>
+                                <th scope="row">4</th>
+                                <td>Tetanus Vaccine</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr className='table-light'>
+                                <th scope="row">5</th>
+                                <td >Rotavirus oral Vaccine</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr className='table-secondary'>
+                                <th scope="row">6</th>
+                                <td>Whooping cough Vaccine</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                                <tr className='table-light'>
+                                <th scope="row">7</th>
+                                <td >Hepatitis B Vaccine</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                            </tbody>
+                            </table>
+                    </div>
+
             </div>
         );
     }
