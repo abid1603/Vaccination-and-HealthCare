@@ -34,7 +34,30 @@
     margin: 0 10px;
     cursor: pointer;
 }
-.Contact{
+.home:hover{
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+.Bvaccine:hover{
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+.Wvaccine:hover{
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+.Hospital:hover{
+    
+        border: 1px solid yellow;
+        border-radius: 5px;
+    }
+
+.Htips:hover{
+    
+        border: 1px solid yellow;
+        border-radius: 5px;
+    }
+.Contact:hover{
     border: 1px solid yellow;
     border-radius: 5px;
 }
@@ -75,9 +98,8 @@
         width: 100%;
         transition: all 0.5s ease;
     }
-    .Contact{
+    .Contact:hover, .Hospital:hover,.Htips:hover,.Wvaccine:hover,.Bvaccine:hover,.home:hover{
         border: none;
-
     }
     .mobile-menu-icon{
         display: block;
@@ -90,5 +112,8 @@
         top: 15px;
         right: 25px;
     }
+ 
+    
+
 
 }
