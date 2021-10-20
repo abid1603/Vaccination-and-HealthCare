@@ -1,0 +1,36 @@
+.content{
+    width: 100%;
+    height: 100vh;    
+}
+.background-image{
+    height: 80%;
+    background-image: url("./Photos/home.png");
+    background-repeat: no-repeat;
+    position: relative;
+    left: 900px;
+    
+}
+.background-image h1{
+    color: rgb(17, 113, 223);
+    position: relative;
+    right: 750px;
+    top: 180px;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.background-image h1 span{
+    color: rgb(204, 207, 211);
+    font-size: 60px;
+}
+.background-image p{
+    color: rgb(10, 125, 197);
+    font-size: 25px;
+    position: relative;
+    top: 200px;
+    right: 750px;
+}
+.btn{
+    position: relative;
+    top: 210px;
+    right: 750px;
+}
