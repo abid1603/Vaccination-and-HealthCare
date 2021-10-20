@@ -5,13 +5,13 @@
 .body{
     background-color: rgb(57, 44, 112);
 }
-.header {
+.upside {
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Photos/4.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./Photos/p.jpg);
     background-size: cover;
   }
 .title{
-    font-size: 70px;
+    font-size: 60px;
     color: whitesmoke;
     text-align: center;
     font-weight: 500;
@@ -21,41 +21,30 @@
     padding-top: 20px;
     font-size: 23px;
     color: white;
-    text-align: center;
+    text-align: left;
 }
-.takeinfo .title2{
-    color: green;
-    text-align: center;
-    padding: 20px;
-    font-weight: 600;
-}
-.takeinfo{
+.takeinfo2{
     margin-top: 100px;
     width: 100%;
     background-color: white;
     border-radius: 10px;
     text-align: center;
 }
-.form{
-    padding: 0px 200px 40px 200px;
+.title23{
+    color: green;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
 }
-.form-control{
-    margin-bottom: 10px;
-}
-.hilite{
+..hilite{
     font-size: 25px;
     color: green;
 }
-.table{
-    margin-top: 50px;
-    
+.tablePart{
+    margin-top: 40px;
 }
-.lasttitle{
+.lasttitle2{
     position: relative;
     top: 30px;
-    color: white;
-    font-size: 30px;
-}
-.container{
-    padding-bottom: 40px;
+    color: green;
 }

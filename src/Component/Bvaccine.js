@@ -31,7 +31,7 @@ class Bvaccine extends Component {
 
                 </div>
                     <div id='vaccineTable' className="container">
-                    <h2 className="title"> Vaccines your child will get </h2>
+                    <h3 className="lasttitle"> Vaccines your child will get </h3>
                          <table class="table table-bordered">
                             <thead>
                                 <tr className='table-danger'>
