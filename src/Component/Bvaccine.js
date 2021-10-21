@@ -5,6 +5,10 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 class Bvaccine extends Component {
     
     render() {
+
+        const showvaccineTable = () => {
+            document.getElementById('vaccineTable').classList.remove('hide');
+        }
         return (
             <div className="body">
                 <div className="header">
@@ -24,14 +28,20 @@ class Bvaccine extends Component {
                                 <input type="text" id="gender" class="form-control" placeholder="Enter Your Baby Gender"></input>
                                 <span className="hilite">Birth Date :</span>
                                 <input type="date" id="birthDate" class="form-control"></input>
-                                <button id="submit" class="btn btn-success">Submit</button>
+                                <input onClick={showvaccineTable} id="submit" className='btyi' type='button' value='submit'></input>
                             </form>
                          </div>
                     </div>
 
                 </div>
-                    <div id='vaccineTable' className="container">
-                    <h3 className="lasttitle"> Vaccines your child will get </h3>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                    <div id='vaccineTable' className="container p-3 hide">
+                    <h3 className="lasttitle" style={{color:'black'}}> Vaccines your child will get </h3>
                          <table class="table table-bordered">
                             <thead>
                                 <tr className='table-danger'>

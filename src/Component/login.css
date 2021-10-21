@@ -1,0 +1,75 @@
+
+.loginWrapper{
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s ease;
+    
+}
+.regWrapper{
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.2);
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 35%;
+    position: absolute;
+    top: 2%;
+    left: -50%;
+    transform: translateX(-50%);
+    transition: .5s ease;
+    
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.inputError{
+    border: 1px solid red;
+}
+
+.pError{
+    color: red;
+}
+
+.btnn{
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    border: none;
+    transition: .5s ease;
+    background: #166b1b;
+    color: white;
+    text-decoration: none;
+}
+.btnn:hover{
+    background: #1d9124;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 1050px) {
+    .loginWrapper{
+        width: 80%;
+    }
+    .regWrapper{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .loginWrapper{
+        width: 90%;
+    }
+    .regWrapper{
+        width: 90%;
+    }
+}

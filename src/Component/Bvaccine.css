@@ -59,3 +59,19 @@
 .container{
     padding-bottom: 40px;
 }
+
+.btyi{
+    padding: 5px 10px 5px 10px;
+    background: #4fe056;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: .5s ease;
+}
+
+.btyi:hover{
+    background: #29ba30;
+}
+.hide{
+    display: none;
+}

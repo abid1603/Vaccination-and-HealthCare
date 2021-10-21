@@ -10,7 +10,7 @@ const Navbar = () => {
                 <ul className={isMobile? "nav-links-mobile":"nav-links"}
                 onClick={() =>setIsMobile(false)}
                 >
-                    <Link to="/" className="home">
+                    <Link to="/home" className="home">
                         <li>Home</li>
                     </Link>
 

@@ -3,6 +3,10 @@ import "../Component/Wvaccine.css";
 
 class Wvaccine extends Component {
     render() {
+
+        const showvaccineTable = () => {
+            document.getElementById('tablePart').classList.remove('hide');
+        }
         return (
             <div >
                 <div className="upside">
@@ -19,10 +23,10 @@ class Wvaccine extends Component {
                                 <input type="text" id="pregnantWName" class="form-control" placeholder="Enter Name Here"></input>
                                 <span className="hilite">Month of Pregnancy :</span>
                                 <input type="number" id="pmonth" placeholder="how month of pregnant..?" class="form-control"></input>
-                                <button id="submit" class="btn btn-success">Submit</button>
+                                <input onClick={showvaccineTable} id="submit" className='btyi' type='button' value='submit'></input>
                             </form>
                          </div>
-                         <div className="tablePart">
+                         <div className="tablePart hide" id='tablePart'>
                          <h3 className="lasttitle2"> Vaccines you will get </h3>
                             <table class="table table-bordered">
                                 <thead>
