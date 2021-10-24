@@ -23,7 +23,7 @@ const Login = () => {
                         <img src={LogInImg} alt='login' height='170px' />
                     </div>
                     <div>
-                        <h4 style={{textAlign: 'center', padding: '20px'}}>Login - chat Application</h4>
+                        <h4 style={{textAlign: 'center', padding: '20px',color:'green',fontWeight:'700'}}>Vaccination and Health Care</h4>
                         <form method='POST' autoComplete="off">
                             <div className="form-group">
                                 <label htmlFor="usernameLogin">Email Phone/username</label>
@@ -51,7 +51,7 @@ const Login = () => {
                     <img src={Creg} alt='login' height='170px' />
                 </div>
                 <div>
-                    <h4 style={{textAlign: 'center', padding: '20px'}}>Reg - chat Application</h4>
+                    <h4 style={{textAlign: 'center', padding: '20px',color:'green',fontWeight:'700'}}>Registration Page</h4>
                     <form encType='multipart/form-data' method='POST'>
                     <>
                         <div className="row">
